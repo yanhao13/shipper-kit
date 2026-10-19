@@ -1,8 +1,8 @@
-# Daily Shipper Kit
+# Shipper Kit
 
 **Ship code while you sleep — safely.**
 
-Daily Shipper Kit turns any repo with tests into an unattended AI dev loop:
+Shipper Kit turns any repo with tests into an unattended AI dev loop:
 a scheduled agent that reads your GitHub backlog, ships the top task
 test-first inside a locked-down container, opens a PR, comments its
 reasoning, and pings you with a morning report. You wake up, read, merge.
@@ -26,13 +26,13 @@ to run every night without watching it.
 ## Quickstart (5 minutes)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yanhao13/daily-shipper-kit/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yanhao13/shipper-kit/main/install.sh | bash
 ```
 
 Or manually:
 
 ```bash
-git clone https://github.com/yanhao13/daily-shipper-kit.git /tmp/dsk
+git clone https://github.com/yanhao13/shipper-kit.git /tmp/dsk
 cd /path/to/your-repo
 /tmp/dsk/install.sh .
 ```
